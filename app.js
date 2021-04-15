@@ -2,20 +2,28 @@ alert("Hello! You are in my project ^.^ ");
 
 var movies = prompt("Please enter the type of movies you want to watch ", "kids");
 
+
+
+
+
+
 if (movies== "kids" ) {
 
-var moviesName = prompt('please enter your fav char name from kids movie!', 'Minnie Mouse');
+var moviesName = prompt('please enter your fav char name from kids movie!', 'minnie');
 
-while(moviesName !== 'Minnie Mouse'&& moviesName !== 'Mickey Mouse'){
-  minionsName = prompt('Please enter the name Minnie Mouse or Mickey Mouse');
+while(moviesName !== 'minnie' && moviesName !== 'mickey')
+
+{
+  moviesName = prompt('Please enter the name minnie or mickey');
 }
 
 
 var userChoose;
 
-if(moviesName === 'Minnie Mouse'){
+if(moviesName == 'minnie'){
 userChoose='<img src="https://i.pinimg.com/originals/58/29/c3/5829c3e6e7437daac35272ab75cae2cc.png">';
-}else if (moviesName === 'Mickey Mouse'){
+}
+else if (moviesName == 'mickey'){
   userChoose='<img src="https://i.pinimg.com/originals/76/49/f5/7649f556f4720425121f05553ab9d819.jpg">';
 }
 
@@ -33,7 +41,7 @@ for(var i=0 ; i < imagesNumber; i++){
   var moviesName = prompt('please enter your fav char name from family movie!', 'Harry Potter');
 
 while(moviesName !== 'Harry Potter'&& moviesName !== 'Nemo'){
-  minionsName = prompt('Please enter the name Harry Potter or Nemo');
+  moviesName = prompt('Please enter the name Harry Potter or Nemo');
 }
 
 
