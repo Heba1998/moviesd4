@@ -54,7 +54,7 @@ else if (movies== "family" ) {
   var moviesName;
   var favFammovies= function (){
 
-  var moviesName = prompt('please enter your fav char name from family movie!', 'Harry Potter');
+  moviesName = prompt('please enter your fav char name from family movie!', 'Harry Potter');
 
 while(moviesName !== 'Harry Potter'&& moviesName !== 'Nemo'){
   moviesName = prompt('Please enter the name Harry Potter or Nemo');
@@ -66,7 +66,7 @@ favFammovies();
 
 
 
-
+var moviesName;
 var userChoose;
 var FamilymoviesImg= function (){
 if(moviesName === 'Harry Potter'){
