@@ -1,30 +1,33 @@
 body {
-  background-color:#e6f9ff;
+  font-size: 29px;
+  background-color:rgb(247, 244, 245);
   padding: 10px;
   font-family: 'Courier New', Courier, monospace;
 }
 h1 {
-
-  color: #0c8db4;
+padding: 4px;
+  color:rgb(77, 109, 143);
   text-align: center;
+  text-shadow: 10px 2px 2px rgb(235, 183, 236)
+;
 }
 
 h2 {
- color:#007acc;
+ color:rgb(157, 167, 145);
 
 
 }
 p {
-  color:#003b4d;
+  color:#B56291;
   padding: 10px
 }
 
 img {
 padding: 3px;
-  width: 600px;
-  height: 400px;
+  width: 60%;
+  height: 10%;
   border-radius: 20%;
   margin-left: auto;
   margin-right: auto;
-  box-shadow:0 6px 10px 0 #003b4d;
+  box-shadow:0 8px 12px 0 rgb(235, 183, 236);
 }
