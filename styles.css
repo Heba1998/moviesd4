@@ -31,3 +31,7 @@ padding: 3px;
   margin-right: auto;
   box-shadow:0 8px 12px 0 rgb(235, 183, 236);
 }
+
+footer {
+  text-align: center;
+}
